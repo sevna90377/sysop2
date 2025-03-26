@@ -1,0 +1,10 @@
+^C:\USERS\1310I\DOCUMENTS\GITHUB\SYSOP2\BUILD\CMAKEFILES\50E625FEA5866BC8A882F5944A3D0F91\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/1310i/Documents/GitHub/sysop2 -BC:/Users/1310i/Documents/GitHub/sysop2/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/1310i/Documents/GitHub/sysop2/build/dining_philosophers.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

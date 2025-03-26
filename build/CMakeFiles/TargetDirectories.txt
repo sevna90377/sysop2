@@ -1,0 +1,3 @@
+C:/Users/1310i/Documents/GitHub/sysop2/build/CMakeFiles/dining_philosophers.dir
+C:/Users/1310i/Documents/GitHub/sysop2/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/1310i/Documents/GitHub/sysop2/build/CMakeFiles/ZERO_CHECK.dir
