@@ -49,8 +49,8 @@ public:
         printMessage("is eating.");
         std::this_thread::sleep_for(std::chrono::milliseconds(rand() % 1000 + 500));
 
-        firstFork.unlock();
         secondFork.unlock();
+        firstFork.unlock();
     }
 
     void printMessage(const std::string& message) {
