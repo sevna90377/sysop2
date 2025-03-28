@@ -6,7 +6,7 @@
 #include <random>
 
 int NUM_PHILOSOPHERS = 5;
-std::mutex printMutex; // Global mutex to synchronize console output
+std::mutex printMutex;
 
 class Fork {
 private:
